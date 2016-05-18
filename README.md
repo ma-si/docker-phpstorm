@@ -19,7 +19,7 @@ To launch PhpStorm we need to provide the current display and your X11 socket. Y
     $ docker run -it --rm \
         -e DISPLAY=$DISPLAY \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        -v ~/.PhpStorm2016.1:/home/developer/.PhpStorm2016.1 \
+        -v ~/.PhpStorm-2016.1:/home/developer/.PhpStorm-2016.1 \
         -v ~/Projects:/workspace \
         iainmckay/phpstorm:2016.1
 ```
